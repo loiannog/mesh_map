@@ -6,11 +6,9 @@
 
 
 
-void cloud_callback(const sensor_msgs::PointCloud2::ConstPtr& msg) {
-    
-    		      pcl::PointCloud <pcl::PointXYZ> map_pcl;
-		      sensor_msgs::PointCloud2 in_points2;
-		      pcl::fromROSMsg(in_points2, map_pcl);
+void cloud_callback(const sensor_msgs::PointCloud::ConstPtr& msg) {
+    //input is a set of points and id
+
 		      //map_pcl has a size
   }
 

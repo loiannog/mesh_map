@@ -8,6 +8,7 @@
 #include <tf/transform_broadcaster.h>
 #include <sensor_msgs/PointCloud2.h>
 #include <pcl_ros/point_cloud.h>
+#include <sensor_msgs/PointCloud.h>
 #include <memory>
 
 
